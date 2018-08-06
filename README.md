@@ -6,7 +6,7 @@ _Using Python 2.7, Conda and Jupyter Notebook_
 
 # FLOWERS
 
-**custom datas;** Contains practices from https://www.youtube.com/watch?v=ZzWaow1Rvho&list=PLxt59R_fWVzT9bDxA76AHm3ig0Gg9S3So
+**custom data;** Contains practices from https://www.youtube.com/watch?v=ZzWaow1Rvho&list=PLxt59R_fWVzT9bDxA76AHm3ig0Gg9S3So
 
 Flowers.ipynb
 --------------------------------
@@ -18,7 +18,7 @@ Deriving the cost (finding it's slope), we are able to adjust w1, w2 and b.
 Flowers_CLF.ipynb
 --------------------------------
 The example above, this time only using SciKit.
-Testing with various classifiers. Highest accuracy was obtained with NN CLF.
+Testing with various classifiers. Highest accuracy was obtained with MLP CLF.
 
 Flowers_custom_CLF.ipynb
 --------------------------------
@@ -33,7 +33,7 @@ training the network using the slope of the cost function.
 
 Iris.ipynb
 --------------------------------
-Solved using Tree CLF, KNN CLF, MLP CLF and NN CLF.
+Solved using Tree CLF, KNN CLF, MLP CLF.
 
 Iris_Custom_CLF.ipynb
 --------------------------------

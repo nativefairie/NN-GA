@@ -7,7 +7,7 @@ _Using Python 2.7, Conda and Jupyter Notebook_
 # FLOWERS
 
 **custom data;** Contains practices from https://www.youtube.com/watch?v=ZzWaow1Rvho&list=PLxt59R_fWVzT9bDxA76AHm3ig0Gg9S3So
-![Flower_dataset](https://github.com/nativefairie/NN-GA/blob/master/Flowers.png)
+![Flower_dataset](https://github.com/nativefairie/NN-GA/blob/master/Flowers/Flowers.png)
 
 
 Flowers.ipynb
@@ -31,11 +31,12 @@ training the network using the slope of the cost function.
 
 # IRIS
 **dataset from https://archive.ics.uci.edu/ml/datasets.html**, since included with SciKit, importing it likewise.
-![Iris_dataset_plot](https://github.com/nativefairie/NN-GA/blob/master/Iris.png)
+![Iris_dataset_plot](https://github.com/nativefairie/NN-GA/blob/master/Iris/Iris.png)
 
 Iris.ipynb
 --------------------------------
 Solved using Tree CLF, KNN CLF, MLP CLF.
+Noted accuracies for Tree 0,94; KNN 0,973; MLP 0,96
 
 Iris_Custom_CLF.ipynb
 --------------------------------

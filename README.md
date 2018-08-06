@@ -31,6 +31,7 @@ training the network using the slope of the cost function.
 
 # IRIS
 **dataset from https://archive.ics.uci.edu/ml/datasets.html**, since included with SciKit, importing it likewise.
+![Iris_dataset_plot](https://github.com/nativefairie/NN-GA/blob/master/Iris.png)
 
 Iris.ipynb
 --------------------------------

@@ -2,11 +2,13 @@ Neural Networks and Genetic Algorithms
 
 _Using Python 2.7, Conda and Jupyter Notebook_
 
-**!CLASSIFICATION**
+**CLASSIFICATION**
 
 # FLOWERS
 
 **custom data;** Contains practices from https://www.youtube.com/watch?v=ZzWaow1Rvho&list=PLxt59R_fWVzT9bDxA76AHm3ig0Gg9S3So
+![Flower_dataset](https://github.com/nativefairie/NN-GA/blob/master/Flowers.png)
+
 
 Flowers.ipynb
 --------------------------------

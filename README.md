@@ -2,7 +2,7 @@ Neural Networks and Genetic Algorithms
 
 _Using Python 2.7, Conda and Jupyter Notebook_
 
-
+**!CLASSIFICATION**
 
 # FLOWERS
 
@@ -18,7 +18,6 @@ Deriving the cost (finding it's slope), we are able to adjust w1, w2 and b.
 Flowers_CLF.ipynb
 --------------------------------
 The example above, this time only using SciKit.
-Testing with various classifiers. Highest accuracy was obtained with MLP CLF.
 
 Flowers_custom_CLF.ipynb
 --------------------------------
@@ -39,3 +38,7 @@ Iris_Custom_CLF.ipynb
 --------------------------------
 Writing a scrappy version of KNearestNeighbor, using Euclidean distance.
 
+
+
+# MUSHROOMS
+**dataset from https://archive.ics.uci.edu/ml/datasets.html**, reading it with pandas as matrix.

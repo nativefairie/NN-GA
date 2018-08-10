@@ -44,15 +44,16 @@ With SciKit features have to be numerical variables. Mushroom dataset being comp
 
 **REGRESSION**
 
-#WINE QUALITY
+# WINE QUALITY
 MLPRegressor implements MLP that trains using BackPropagation with no activation function(step fn, 0 or 1). It uses the cost function as the loss function, and the output is a set of continuous values.
+
 
 **IMAGE RECOGNITION**
 
-#HANDWRITTEN DIGITS
+# HANDWRITTEN DIGITS
 
 
 **ALGORITHMS**
 
-#BACKPROPAGATION
+# BACKPROPAGATION
 

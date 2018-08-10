@@ -46,7 +46,9 @@ With SciKit features have to be numerical variables. Mushroom dataset being comp
 
 # WINE QUALITY
 MLPRegressor implements MLP that trains using BackPropagation with no activation function(step fn, 0 or 1). It uses the cost function as the loss function, and the output is a set of continuous values.
-
+https://jakevdp.github.io/PythonDataScienceHandbook/05.09-principal-component-analysis.html is awesome
+for understanding Principal Component Analysis!
+Used make_pipeline in order to apply PCA and our classifier,MPLRegressor
 
 **IMAGE RECOGNITION**
 

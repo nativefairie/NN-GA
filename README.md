@@ -4,7 +4,6 @@ _Using Python 2.7, Conda and Jupyter Notebook_
 
 **CLASSIFICATION**
 
- _These are for learning purposes_
 # FLOWER
 
 **custom data;** Contains practices from https://www.youtube.com/watch?v=ZzWaow1Rvho&list=PLxt59R_fWVzT9bDxA76AHm3ig0Gg9S3So
@@ -38,7 +37,6 @@ Iris_Custom_CLF.ipynb
 Writing a scrappy version of KNearestNeighbor, using Euclidean distance.
 
 
-_Real deal starts here_
 
 # MUSHROOM
 **dataset from https://archive.ics.uci.edu/ml/datasets.html**, reading it with pandas as matrix.

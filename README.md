@@ -7,7 +7,7 @@ _Using Python 2.7, Conda and Jupyter Notebook_
 # FLOWER
 
 **custom data;** Contains practices from https://www.youtube.com/watch?v=ZzWaow1Rvho&list=PLxt59R_fWVzT9bDxA76AHm3ig0Gg9S3So
-![Flower_dataset](https://github.com/nativefairie/NN-GA/blob/master/Flowers/Flowers.png)
+![Flower_dataset](https://github.com/nativefairie/NN-GA/blob/master/Flower/Flowers.png)
 
 
 Flowers.ipynb

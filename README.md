@@ -25,6 +25,7 @@ The example above, this time using SciKit.
 
 # IRIS
 **dataset from https://archive.ics.uci.edu/ml/datasets.html**, since included with SciKit, importing it likewise.
+
 ![Iris_dataset_plot](https://github.com/nativefairie/NN-GA/blob/master/Iris/Iris.png)
 
 Iris.ipynb
@@ -38,16 +39,15 @@ Writing a scrappy version of KNearestNeighbor, using Euclidean distance.
 
 
 _Real deal starts here_
+
 # MUSHROOM
 **dataset from https://archive.ics.uci.edu/ml/datasets.html**, reading it with pandas as matrix.
-With SciKit features have to be continuous numerical variables. Mushroom dataset being composed of  categorical variables requires encoding. Pandas contains get_dummies() which does everything in one go and provides appropriate column labels. Solved with MLP, score obtained: 1.0
+With SciKit features have to be numerical variables. Mushroom dataset being composed of categorical variables requires encoding. Pandas contains get_dummies() which does everything in one go and provides appropriate column labels. Solved with MLP, score obtained: 1.0
 
 **REGRESSION**
 
-#DIABETES
-
 #WINE QUALITY
-
+MLPRegressor implements MLP that trains using BackPropagation with no activation function(step fn, 0 or 1). It uses the cost function as the loss function, and the output is a set of continuous values.
 
 **IMAGE RECOGNITION**
 
@@ -56,6 +56,5 @@ With SciKit features have to be continuous numerical variables. Mushroom dataset
 
 **ALGORITHMS**
 
-#PERCEPTRON
+#BACKPROPAGATION
 
-#stochastic gradient descent

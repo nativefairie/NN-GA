@@ -82,7 +82,7 @@ Optical_digits_recognition.ipynb
 ---------------------------------
 
 **dataset from: https://archive.ics.uci.edu/ml/datasets.html**
-![Handwritten_digits_dataset](https://github.com/nativefairie/NN-GA/blob/master/Handwritten Digits Classification/Handwritten.png)
+![Handwritten_digits_dataset](https://github.com/nativefairie/NN-GA/blob/master/Handwritten_Digits_Classification/Handwritten.png)
 
 
 

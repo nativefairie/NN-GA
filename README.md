@@ -83,6 +83,7 @@ Optical_digits_recognition.ipynb
 
 **dataset from: https://archive.ics.uci.edu/ml/datasets.html**
 ![Handwritten_digits_dataset](https://github.com/nativefairie/NN-GA/blob/master/Handwritten_Digits_Classification/Handwritten.png)
+
 Dataset is composed of normalized bitmaps of handwritten digits from a preprinted form, that consisted of 8x8 pixel images. So 64 columns, each row being a number.
 
 Importing the two datasets from UCI with pandas and splitting data into test data and train data was the first step. Used a couple of models to test the accuracy but all turned out to have 0 errors. Played around a bit and made a pipeline with PCA and MPLClassifier.

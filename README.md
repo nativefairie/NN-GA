@@ -46,9 +46,12 @@ With SciKit features have to be numerical variables. Mushroom dataset being comp
 
 # WINE QUALITY
 MLPRegressor implements MLP that trains using BackPropagation with no activation function(step fn, 0 or 1). It uses the cost function as the loss function, and the output is a set of continuous values.
+PCA is an unsupervised method, rather than attempting to predict the y values from the x values, the problem attempts to learn about the relationship between the x and y values.
+This relationship is quantified by finding a list of the principal axes in the data, and using those axes to describe the dataset: explained variance and components. Visualizing them as vectors means seeing the principal axes of the data. So we are reducing the dimension of the data but keepinf the relationship between the data points.
 https://jakevdp.github.io/PythonDataScienceHandbook/05.09-principal-component-analysis.html is awesome
 for understanding Principal Component Analysis!
-Used make_pipeline in order to apply PCA and our classifier,MPLRegressor
+
+Used two new concepts, make_pipeline and PCA. Pipeline helped to apply PCA together with our classifier, the MPLRegressor. Should have scaled the components on the X axis but the accuracy whitout it was still 1.0
 
 **IMAGE RECOGNITION**
 

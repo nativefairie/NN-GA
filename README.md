@@ -3,11 +3,11 @@ Neural Networks and Genetic Algorithms
 _Using Python 2.7, Conda and Jupyter Notebook_
 
 Trained myself using: 
-1. https://www.youtube.com/watch?v=ZzWaow1Rvho&list=PLxt59R_fWVzT9bDxA76AHm3ig0Gg9S3So
-2. https://www.youtube.com/watch?v=cKxRvEZd3Mw
-3. https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=1
-4. http://scikit-learn.org/stable/documentation.html
-5. http://neuralnetworksanddeeplearning.com [_Book by Michael Nielsen_]
+1. https://www.youtube.com/watch?v=ZzWaow1Rvho&list=PLxt59R_fWVzT9bDxA76AHm3ig0Gg9S3So [Intro to NN]
+2. https://www.youtube.com/watch?v=cKxRvEZd3Mw [Intro to SciKit and TensorFlow]
+3. https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=1 [BP deep dive]
+4. http://scikit-learn.org/stable/documentation.html [...]
+5. http://neuralnetworksanddeeplearning.com [Book by Michael Nielsen]
 
 **CLASSIFICATION**
 
@@ -83,12 +83,18 @@ Optical_digits_recognition.ipynb
 
 **dataset from: https://archive.ics.uci.edu/ml/datasets.html**
 ![Handwritten_digits_dataset](https://github.com/nativefairie/NN-GA/blob/master/Handwritten_Digits_Classification/Handwritten.png)
+Dataset is composed of normalized bitmaps of handwritten digits from a preprinted form, that consisted of 8x8 pixel images. So 64 columns, each row being a number.
 
+Importing the two datasets from UCI with pandas and splitting data into test data and train data was the first step. Used a couple of models to test the accuracy but all turned out to have 0 errors. Played around a bit and made a pipeline with PCA and MPLClassifier.
+What this means is that we used backpropagation algorithm to recurrsively change the activatation value of the previous layers in proportion to weights, increase the weights in proportion to activation value, adjust the bias..With PCA principal components were already chosen. Used 2 hidden layers and Stochastic Gradient Descent as solver, which means we found approximations of the cost function at each step for each minibatch.
+64 comlumns of input datas were reduced with PCA to 2columns for data visualization. We can now think of the data as the layout of the digits on X,y axis.
 
+Optical_digits_recognition_BP.ipynb
+------------------------------------
 
+**dataset from: http://yann.lecun.com/exdb/mnist/**
 
-
-http://yann.lecun.com/exdb/mnist/
+Solved using raw BP algorithm.
 
 
 
@@ -96,3 +102,4 @@ http://yann.lecun.com/exdb/mnist/
 
 # BACKPROPAGATION
 
+![BackPropagation](https://github.com/nativefairie/NN-GA/blob/master/BackPropagation/BP.png)

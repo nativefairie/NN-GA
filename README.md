@@ -44,14 +44,24 @@ Iris_Custom_CLF.ipynb
 Writing a scrappy version of KNearestNeighbor, using Euclidean distance.
 
 
-
 # MUSHROOM
+
+Mushroom.ipynb
+--------------------------------
+
 **dataset from https://archive.ics.uci.edu/ml/datasets.html**, reading it with pandas as matrix.
 With SciKit features have to be numerical variables. Mushroom dataset being composed of categorical variables requires encoding. Pandas contains get_dummies() which does everything in one go and provides appropriate column labels. Solved with MLP with 10 hidden layers, score obtained: 1.0
 
+
+
 **REGRESSION**
 
+
 # WINE QUALITY
+
+Wine_Quality.ipynb
+--------------------------------
+
 **dataset from https://archive.ics.uci.edu/ml/datasets.html**.
 MLPRegressor implements MLP that trains using BackPropagation with no activation function(step fn, 0 or 1). It uses the cost function as the loss function, and the output is a set of continuous values.
 PCA is an unsupervised method, rather than attempting to predict the y values from the x values, the problem attempts to learn about the relationship between the x and y values.
@@ -59,14 +69,28 @@ This relationship is quantified by finding a list of the principal axes in the d
 https://jakevdp.github.io/PythonDataScienceHandbook/05.09-principal-component-analysis.html is awesome
 for understanding Principal Component Analysis!
 
-Used two new concepts, make_pipeline and PCA. Pipeline helped to apply PCA together with our classifier, the MPLRegressor. Should have scaled the components on the X axis but the accuracy whitout it was still 1.0
+Used Pipeline which helped to apply PCA together with our our model, the MPLRegressor. Scaled the components, as asked by PCA.
+
+
 
 **IMAGE RECOGNITION**
 
+
 # HANDWRITTEN DIGITS
-**dataset from: 
-1. https://archive.ics.uci.edu/ml/datasets.html
-2. http://yann.lecun.com/exdb/mnist/**
+
+Optical_digits_recognition.ipynb
+---------------------------------
+
+**dataset from: https://archive.ics.uci.edu/ml/datasets.html**
+![Handwritten_digits_dataset](https://github.com/nativefairie/NN-GA/blob/master/Handwritten Digits Classification/Handwritten.png)
+
+
+
+
+
+http://yann.lecun.com/exdb/mnist/
+
+
 
 **ALGORITHMS**
 

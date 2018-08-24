@@ -8,7 +8,7 @@ Trained myself using:
 3. https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=1 [BP deep dive]
 4. http://scikit-learn.org/stable/documentation.html [...]
 5. http://neuralnetworksanddeeplearning.com [Book by Michael Nielsen]
-
+6. https://www.youtube.com/watch?v=0e0z28wAWfg&t=287s [Guy explaining BP numerically]
 **CLASSIFICATION**
 
 # FLOWER
@@ -103,4 +103,31 @@ Solved using raw BP algorithm.
 
 # BACKPROPAGATION
 
+BP.ipynb
+---------
+
+Guess what the hidden units should look like based on how the inputs look like and what the output should look like.
 ![BackPropagation](https://github.com/nativefairie/NN-GA/blob/master/BackPropagation/BP.png)
+![BackPropagation_2](https://github.com/nativefairie/NN-GA/blob/master/BackPropagation/BP2.png)
+![BackPropagation_3](https://github.com/nativefairie/NN-GA/blob/master/BackPropagation/BP3.png)
+
+The Backpropagation algorithm is a supervised learning method for multilayer feed-forward networks.
+
+
+# HANDWRITTEN DIGITS
+
+MNIST_Digit_Dataset.ipynb
+------------------------------------
+
+MNIST Digit Dataset solved with raw BP algorthm.
+
+Long story short:
+https://www.youtube.com/watch?v=0e0z28wAWfg&t=287s - this guy here helped by highlighting the obvious!
+
+Some jibberish notes of how i kept track of what I was doing can be found in the folder.
+
+The whole point of view was though sustained by the formulas.
+
+Refactoring with Stochastic Gradient Descent should improve performance.
+
+

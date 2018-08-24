@@ -112,8 +112,10 @@ Guess what the hidden units should look like based on how the inputs look like a
 
 I just like the drawing:
 
-![BackPropagation_2](https://github.com/nativefairie/NN-GA/blob/master/BackPropagation/BP2.png | width=200)
-<img src="https://github.com/nativefairie/NN-GA/blob/master/BackPropagation/BP2.png" width="200">
+
+<img src="https://github.com/nativefairie/NN-GA/blob/master/BackPropagation/BP2.png" width="350">
+
+
 The Backpropagation algorithm is a supervised learning method for multilayer feed-forward networks.
 
 

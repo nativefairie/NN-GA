@@ -106,10 +106,13 @@ Solved using raw BP algorithm.
 BP.ipynb
 ---------
 
-Guess what the hidden units should look like based on how the inputs look like and what the output should look like.
+Guess what the hidden units should look like based on how the inputs look like and what the output should look like, using:
+
 ![BackPropagation](https://github.com/nativefairie/NN-GA/blob/master/BackPropagation/BP.png)
-![BackPropagation_2](https://github.com/nativefairie/NN-GA/blob/master/BackPropagation/BP2.png)
-![BackPropagation_3](https://github.com/nativefairie/NN-GA/blob/master/BackPropagation/BP3.png)
+
+I just like the drawing:
+
+![BackPropagation_2](https://github.com/nativefairie/NN-GA/blob/master/BackPropagation/BP2.png | width=200)
 
 The Backpropagation algorithm is a supervised learning method for multilayer feed-forward networks.
 

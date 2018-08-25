@@ -124,7 +124,7 @@ The Backpropagation algorithm is a supervised learning method for multilayer fee
 MNIST_Digit_Dataset.ipynb
 ------------------------------------
 
-MNIST Digit Dataset solved with raw BP algorthm.
+MNIST Digit Dataset with raw BP algorthm as classifier.
 
 Long story short:
 https://www.youtube.com/watch?v=0e0z28wAWfg&t=287s - this guy here helped by highlighting the obvious!
